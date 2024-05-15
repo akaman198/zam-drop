@@ -1,6 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
-import Kobodrop from "../assets/logos/kobodrop_logo.svg";
+import zamdrop from "../assets/logos/zamdrop_logo.svg";
 import ButtonLink from "../common/ButtonLink";
 
 function Nav() {
@@ -21,7 +21,7 @@ function Nav() {
             <div className="flex">
               <ButtonLink
                 href="#"
-                children={<img src={Kobodrop} alt="Kobodrop logo" />}
+                children={<img src={zamdrop} alt="zamdrop logo" />}
               />
               <div className="ml-4 hidden items-center space-x-4 sm:ml-6 sm:flex lg:ml-8 lg:space-x-8">
                 {navLinks.map((link, index) => (
