@@ -1,4 +1,3 @@
-import KobodropLight from "../assets/logos/kobodrop_logo_bright.png";
 import Zamdrop from "../assets/logos/zamdrop_Light_logo.svg";
 import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 import Twitter from "../assets/logos/icons8-twitterx.svg";
@@ -14,7 +13,7 @@ function Footer() {
             <img
               className="mb-4 w-36"
               src={Zamdrop}
-              alt="Light version of Kobodrop logo"
+              alt="Light version of Zamdrop logo"
             />
             <p>Start spending the smart way</p>
           </div>

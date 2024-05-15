@@ -37,7 +37,7 @@ function Nav() {
             <ButtonLink
               href="https://play.google.com"
               target="_blank"
-              children={"Install Kobodrop"}
+              children={"Install ZamDrop"}
               className="active:bg hidden rounded-xl bg-green-800 px-5 py-3 text-white hover:bg-green-900 active:bg-gray-600 sm:flex"
             />
             <Disclosure.Button className="rounded-md p-2 text-green-500 hover:bg-green-700 hover:text-white sm:hidden">

@@ -10,8 +10,8 @@ function Hero() {
           Start spending the smart way
         </h1>
         <p className="m-auto w-[34ch] text-center text-gray-500 md:m-0 md:text-left">
-          Take Control of Your Finances Anytime, Anywhere with Kobodrop.
-          Discover the Smart Way to Use Your Money!
+          Take Control of Your Finances Anytime, Anywhere with Zamdrop. Discover
+          the Smart Way to Use Your Money!
         </p>
         <StoreLinks type={BtnTypes.Standard} />
       </div>
@@ -19,12 +19,12 @@ function Hero() {
         <img
           className="right-0 m-auto w-72 xl:absolute xl:left-6 xl:right-0 xl:mt-32 xl:w-80"
           src={Phone}
-          alt="Kobodrop app frame"
+          alt="Zamdrop app frame"
         />
         <img
           className="hidden rounded-2xl xl:flex"
           src={HeroImage}
-          alt="A woman happily using Kobodrop"
+          alt="A woman happily using Zamdrop"
         />
       </div>
     </section>

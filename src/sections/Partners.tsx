@@ -20,7 +20,7 @@ function Partners() {
           Transact seamlessly with...
         </h2>
         <p>
-          Connect your other accounts to Kobodrop seamlessly. Kobodrop supports
+          Connect your other accounts to ZamDrop seamlessly. ZamDrop supports
           200+
           <br />
           integrations with other payment platforms like stripe, paypal,
