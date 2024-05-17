@@ -1,5 +1,5 @@
 import { Disclosure } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import zamdrop from "../assets/logos/zamdrop_logo.svg";
 import ButtonLink from "../common/ButtonLink";
 
@@ -38,7 +38,7 @@ function Nav() {
               href="https://play.google.com"
               target="_blank"
               children={"Install ZamDrop"}
-              className="active:bg hidden rounded-xl bg-green-800 px-5 py-3 text-white hover:bg-green-900 active:bg-gray-600 sm:flex"
+              className="hidden rounded-xl bg-green-800 px-5 py-3 text-white hover:bg-green-900 active:bg-gray-600 sm:flex"
             />
             <Disclosure.Button className="rounded-md p-2 text-green-500 hover:bg-green-700 hover:text-white sm:hidden">
               {open ? (
@@ -48,12 +48,16 @@ function Nav() {
               )}
             </Disclosure.Button>
           </div>
-          <Disclosure.Panel className="space-y-1 px-4 sm:hidden">
+          <Disclosure.Panel
+            className={`transform transition-transform duration-300 ease-in-out ${
+              open ? "translate-x-0" : "translate-x-full"
+            } flex flex-col sm:hidden h-screen text-white gap-5 bg-green-700 justify-center items-center`}
+          >
             {navLinks.map((link, index) => (
               <Disclosure.Button
                 className="block"
                 as="a"
-                href="#features"
+                href={link.href}
                 key={index}
               >
                 {link.children}
