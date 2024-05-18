@@ -19,7 +19,7 @@ function Footer() {
           </div>
           <div className="flex gap-10">
             <div className="flex flex-col gap-2">
-              <p className="text-gray-300">Product</p>
+              <p className="text-white font-semibold">Product</p>
               <a href="#">Overview</a>
               <a href="#">Features</a>
               <a href="#">Solutions</a>
@@ -27,7 +27,7 @@ function Footer() {
               <a href="#">Releases</a>
             </div>
             <div className="flex flex-col gap-2">
-              <p className="text-gray-300">Resources</p>
+              <p className="text-white font-semibold">Resources</p>
               <a href="#">Blog</a>
               <a href="#">Newsletter</a>
               <a href="#">Events</a>
@@ -36,7 +36,7 @@ function Footer() {
             </div>
           </div>
           <div className="w-fit">
-            <h2>Get the app</h2>
+            <h2 className="font-semibold">Get the app</h2>
             <StoreLinks type={BtnTypes.Variant} />
           </div>
         </div>
