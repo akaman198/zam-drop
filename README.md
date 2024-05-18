@@ -34,5 +34,5 @@ Check out the live demo of ZamDrop --> https://zam-drop.netlify.app/
 ## Technologies Used
 - React: JavaScript library for building user interfaces.
 - Tailwind CSS: Utility-first CSS framework for rapid UI development.
-- JavaScript (ES6+): Programming language used for component logic.
+- TypeScript: Programming language used for component logic.
 - HTML5 & CSS3: Markup and styling.
