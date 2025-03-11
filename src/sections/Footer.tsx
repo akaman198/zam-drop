@@ -40,19 +40,41 @@ function Footer() {
             <StoreLinks type={BtnTypes.Variant} />
           </div>
         </div>
-        <div className="mt-14 flex justify-between border-t-2 border-t-green-700 pt-10">
-          <p className="w-[16ch] text-gray-300 md:w-full">
-            &copy; 2024 ZamDrop. All rights reserved.
+        <div className="mt-14 flex justify-between items-center border-t-2 border-t-green-700 pt-10 flex-wrap gap-4">
+          <p className="text-gray-300">
+            &copy; 2025 ZamDrop. All rights reserved.
+          </p>
+          <p className="text-center">
+            Website developed by{" "}
+            <a
+              href="https://levelupzed.com"
+              className="text-black hover:underline"
+              target="_blank"
+            >
+              Level Up
+            </a>
           </p>
           <div className="flex gap-6">
-            <a href="https://twitter.com" target="_blank">
-              <img src={Twitter} alt="Twitter logo" />
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Twitter} alt="Twitter logo" className="h-6 w-6" />
             </a>
-            <a href="https://www.facebook.com" target="_blank">
-              <img src={Facebook} alt="Facebook logo" />
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Facebook} alt="Facebook logo" className="h-6 w-6" />
             </a>
-            <a href="https://www.linkedin.com" target="_blank">
-              <img src={Linkedin} alt="Linkedin logo" />
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Linkedin} alt="Linkedin logo" className="h-6 w-6" />
             </a>
           </div>
         </div>
